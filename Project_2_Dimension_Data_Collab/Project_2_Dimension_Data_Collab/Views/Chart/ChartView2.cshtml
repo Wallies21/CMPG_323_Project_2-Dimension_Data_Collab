@@ -1,0 +1,39 @@
+﻿<div>
+    <h1>Job Role</h1>
+    <canvas id="jobRole"></canvas>
+</div>
+
+<script>
+
+    var can = document.getElementById("jobRole");
+
+    var HealthRep = @ViewBag.HealthRep;
+    var HR = @ViewBag.HR;
+    var LabTech = @ViewBag.LabTech;
+    var Manager = @ViewBag.Manager;
+    var ManufDir = @ViewBag.ManufDir;
+    var ResearchDir = @ViewBag.ResearchDir;
+    var ResearchSci = @ViewBag.ResearchSci;
+    var SalesExec = @ViewBag.SalesExec;
+    var SalesRep = @ViewBag.SalesRep;
+
+    var genderC = new Chart(can, {
+        type: "bar",
+        data: {
+            labels: ['Healthcare Representative', 'Human Resources', 'Laboratory Technician', 'Manager', 'Manufacturing Director', 'Research Director', 'Research Scientis', 'FemaSales Executivele', 'Sales Representative'],
+            datasets: [{
+                data: [HealthRep, HR, LabTech, Manager, ManufDir, ResearchDir, ResearchSci, SalesExec, SalesRep],
+                backgroundColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#000000"],
+                borderColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#000000"]
+                
+            }]
+        },
+        options: {
+            title: {
+                text: "Job Roles",
+                display: true
+            }
+        },
+    });
+
+</script>

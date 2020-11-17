@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+<head>
+
+    <script src="~/js/Chart/Chart.js"></script>
+</head>
+
+<h1>Dashboard</h1>
+
+
+<div>
+    @await Html.PartialAsync("ChartView1.cshtml")
+</div>
+<div>
+    @await Html.PartialAsync("ChartView2.cshtml")
+</div>
+
+
+
+
+

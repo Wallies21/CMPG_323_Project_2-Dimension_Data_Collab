@@ -1,0 +1,32 @@
+﻿<div>
+    <h1>Gender balance</h1>
+    <canvas id="gender"></canvas>
+</div>
+
+<script>
+
+    var can = document.getElementById("gender");
+    var male = @ViewBag.male;
+    var female = @ViewBag.female;
+
+    var genderC = new Chart(can, {
+        type: "doughnut",
+        data: {
+            labels: ["Male", "Female"],
+            datasets: [{
+                data: [male, female],
+                backgroundColor: ["#33D1FF", "#FFB0D9"],
+                borderColor: ["#0A1197", "#E20074"]
+            }]
+        },
+        options: {
+            title: {
+                text: "Gender",
+                display :true
+            }
+            
+        }
+    });
+
+
+</script>

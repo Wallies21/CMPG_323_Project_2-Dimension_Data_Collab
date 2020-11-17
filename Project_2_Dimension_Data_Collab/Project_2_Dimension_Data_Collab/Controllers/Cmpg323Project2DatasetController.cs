@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +11,12 @@ using Project_2_Dimension_Data_Collab.Models;
 
 namespace Project_2_Dimension_Data_Collab.Controllers
 {
+
+    //[Authorize]
     public class Cmpg323Project2DatasetController : Controller
     {
+
+
         private readonly Dimension_Data_CollabContext _context;
 
         public Cmpg323Project2DatasetController(Dimension_Data_CollabContext context)
