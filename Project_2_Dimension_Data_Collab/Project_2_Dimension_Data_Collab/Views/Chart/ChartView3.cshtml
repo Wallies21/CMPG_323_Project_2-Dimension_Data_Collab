@@ -1,0 +1,36 @@
+﻿<div>
+    <h1>Education Field</h1>
+    <canvas id="EduField"></canvas>
+</div>
+
+<script>
+
+    var can = document.getElementById("EduField");
+
+    var HumanR = @ViewBag.HumanR;
+    var LifeSci = @ViewBag.LifeSci;
+    var Marketing = @ViewBag.Marketing;
+    var Medical = @ViewBag.Medical;
+    var Other = @ViewBag.Other;
+    var TechDegree = @ViewBag.TechDegree;
+
+    var genderC = new Chart(can, {
+        type: "doughnut",
+        data: {
+            labels: ['Human Resources', 'Life Sciences', 'Marketing', 'Medical', 'Other', 'Technical Degree'],
+            datasets: [{
+                data: [HumanR, LifeSci, Marketing, Medical, Other, TechDegree],
+                backgroundColor: ["#CD84FF", "#B954FF", "#A92DFF", "#8500E1", "#6600AD", "#500088"],
+                borderColor: ["#CD84FF", "#B954FF", "#A92DFF", "#8500E1", "#6600AD", "#500088"]
+
+            }]
+        },
+        //options: {
+            //title: {
+                //text: "Education Field",
+                //display: true
+            //}
+        //}
+    });
+
+</script>

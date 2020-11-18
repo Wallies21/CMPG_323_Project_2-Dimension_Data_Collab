@@ -59,6 +59,37 @@ namespace Project_2_Dimension_Data_Collab.Controllers
             #endregion
 
 
+            #region Chart 3
+            var HR = _context.Cmpg323Project2Dataset.Where(HR => HR.EducationField == "Human Resources").Count();
+            var lsci = _context.Cmpg323Project2Dataset.Where(lsci => lsci.EducationField == "Life Sciences").Count();
+            var mark = _context.Cmpg323Project2Dataset.Where(mark => mark.EducationField == "Marketing").Count();
+            var med = _context.Cmpg323Project2Dataset.Where(med => med.EducationField == "Medical").Count();
+            var other = _context.Cmpg323Project2Dataset.Where(other => other.EducationField == "Other").Count();
+            var techd = _context.Cmpg323Project2Dataset.Where(techd => techd.EducationField == "Technical Degree").Count();
+
+
+            ViewBag.HumanR = JsonConvert.SerializeObject(HR);
+            ViewBag.LifeSci = JsonConvert.SerializeObject(lsci);
+            ViewBag.Marketing = JsonConvert.SerializeObject(mark);
+            ViewBag.Medical = JsonConvert.SerializeObject(med);
+            ViewBag.Other = JsonConvert.SerializeObject(other);
+            ViewBag.TechDegree = JsonConvert.SerializeObject(techd);
+
+            #endregion
+
+            #region Chart 4
+            var Hr = _context.Cmpg323Project2Dataset.Where(Hr => Hr.Department == "Human Resources").Count();
+            var rd = _context.Cmpg323Project2Dataset.Where(rd => rd.Department == "Research & Development").Count();
+            var sales = _context.Cmpg323Project2Dataset.Where(sales => sales.Department == "Sales").Count();
+
+
+            ViewBag.HResources = JsonConvert.SerializeObject(Hr);
+            ViewBag.ResearchDevel = JsonConvert.SerializeObject(rd);
+            ViewBag.Sales = JsonConvert.SerializeObject(sales);
+
+            #endregion
+
+
             return View();
         }
     }

@@ -1,0 +1,33 @@
+﻿<div>
+    <h1>Department</h1>
+    <canvas id="dpmnt"></canvas>
+</div>
+
+<script>
+
+    var can = document.getElementById("dpmnt");
+
+    var HResources = @ViewBag.HResources;
+    var ResearchDevel = @ViewBag.ResearchDevel;
+    var Sales = @ViewBag.Sales;
+
+    var genderC = new Chart(can, {
+        type: "doughnut",
+        data: {
+            labels: ['Human Resources', 'Research & Development', 'Sales'],
+            datasets: [{
+                data: [HResources, ResearchDevel, Sales],
+                backgroundColor: ["#18FF00", "#83FF76", "#12BD00"],
+                borderColor: ["#18FF00", "#83FF76", "#12BD00"]
+
+            }]
+        },
+        //options: {
+            //title: {
+                //text: "Department",
+                //display: true
+            //}
+        //}
+    });
+
+</script>

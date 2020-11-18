@@ -18,22 +18,22 @@
     var SalesRep = @ViewBag.SalesRep;
 
     var genderC = new Chart(can, {
-        type: "bar",
+        type: "doughnut",
         data: {
             labels: ['Healthcare Representative', 'Human Resources', 'Laboratory Technician', 'Manager', 'Manufacturing Director', 'Research Director', 'Research Scientis', 'FemaSales Executivele', 'Sales Representative'],
             datasets: [{
                 data: [HealthRep, HR, LabTech, Manager, ManufDir, ResearchDir, ResearchSci, SalesExec, SalesRep],
-                backgroundColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#000000"],
-                borderColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#000000"]
+                backgroundColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#FF8497"],
+                borderColor: ["#FF0000", "#FF9300", "#FFFB00", "#97FF00", "#00FFC5", "#0049FF", "#B200FF", "#FF00D4", "#FF8497"]
                 
             }]
         },
-        options: {
-            title: {
-                text: "Job Roles",
-                display: true
-            }
-        },
+        //options: {
+            //title: {
+                //text: "Job Roles",
+                //display: true
+            //}
+        //}
     });
 
 </script>

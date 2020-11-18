@@ -194,3 +194,5 @@ C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Colla
 C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\obj\Debug\netcoreapp3.1\Razor\Views\Chart\Dashboard.cshtml.g.cs
 C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\obj\Debug\netcoreapp3.1\Razor\Views\Chart\ChartView2.cshtml.g.cs
 C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\obj\Debug\netcoreapp3.1\Razor\Views\Chart\ChartView1.cshtml.g.cs
+C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\obj\Debug\netcoreapp3.1\Razor\Views\Chart\ChartView3.cshtml.g.cs
+C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\obj\Debug\netcoreapp3.1\Razor\Views\Chart\ChartView4.cshtml.g.cs
