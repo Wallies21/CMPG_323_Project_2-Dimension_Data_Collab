@@ -12,7 +12,29 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Areas\Identity\Pages\_ViewImports.cshtml"
+using Project_2_Dimension_Data_Collab.Areas.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\waldo\OneDrive\Documents\GitHub\CMPG_323_Project_2-Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Project_2_Dimension_Data_Collab\Areas\Identity\Pages\_ViewImports.cshtml"
+using Project_2_Dimension_Data_Collab.Areas.Identity.Pages;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"13b82ef97968a56a4de533f67cf3e21d662f41aa", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"50203215ede7fc3a13863f34c2a80b74856d47ab", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
