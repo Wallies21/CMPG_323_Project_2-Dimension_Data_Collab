@@ -12,7 +12,7 @@ using Project_2_Dimension_Data_Collab.Models;
 namespace Project_2_Dimension_Data_Collab.Controllers
 {
 
-    //[Authorize]
+    [Authorize]
     public class Cmpg323Project2DatasetController : Controller
     {
 
