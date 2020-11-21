@@ -9,7 +9,7 @@ using Project_2_Dimension_Data_Collab.Data;
 
 namespace Project_2_Dimension_Data_Collab.Controllers
 {
-    //[Authorize]
+    [Authorize]
 
     public class ChartController : Controller
     {
